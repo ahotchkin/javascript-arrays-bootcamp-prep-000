@@ -4,3 +4,7 @@ function addElementToBeginningOfArray(array, element){
   const newArray = ['foo', ...array];
   return newArray
 }
+
+function destructivelyAddElementToBeginningOfArray(array, element){
+  return ['foo', ...array]
+}
