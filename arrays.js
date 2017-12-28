@@ -9,3 +9,8 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   array = ['foo', ...array];
   return array
 }
+
+function addElementToEndOfArray(array, element){
+  const newArray = [...array, 'foo'];
+  return newArray
+}
